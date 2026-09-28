@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "last_full_audit": null,
+  "last_mechanical_audit": null,
+  "last_vtpsi_check": "2026-09-28",
+  "open_issues": [],
+  "notes": [
+    "Set last_full_audit only after a repository-wide semantic/legal hygiene review.",
+    "Mechanical CI runs do not by themselves count as a full audit."
+  ]
+}
