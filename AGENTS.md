@@ -11,6 +11,7 @@ If you are an AI assistant starting a new project session, **start here**.
 3. Use **`knowledge/COMMON_DECISION_PATHS.md`** for questions that span several regulations.
 4. Check **`knowledge/TRANSITIONS_2027.md`** when the relevant date is near or after 2027-01-01.
 5. For current-law questions, verify the live VTPSI index/update date and the applicable consolidated official text.
+6. Use **`maintenance/KNOWLEDGE_AUDIT.md`** when a knowledge-base audit, documentation-hygiene review or structural refactor is needed.
 
 ## Authority rule
 
@@ -61,4 +62,19 @@ Before persisting regulatory knowledge:
 4. preserve applicable effective-date / historical context;
 5. avoid turning user-specific facts, unsupported assumptions, or tentative reasoning into project knowledge.
 
-For the full workflow, provenance fields, classification rules, historical/future-law handling, citation precision and repository-maintenance policy, read **`PROJECT_GUIDE.md`**.
+### Audit/refactoring trigger
+
+Invoke a **scoped** knowledge audit automatically when normal research reveals a material repository-maintenance problem, including:
+
+- repository knowledge contradicting an official source;
+- duplicate/competing canonical entries;
+- stale routing or cross-references;
+- current/future/historical regimes becoming mixed;
+- an important regulation changing status or a transition date becoming operative;
+- several related findings that should be consolidated into a reusable decision path.
+
+Do not run a full repository refactor after every question. Use the smallest scope that fixes the discovered problem. For substantive legal inconsistencies, verify official sources before changing durable knowledge.
+
+A user can explicitly trigger a full audit with requests such as **"run the knowledge-base audit"** or **"audit/refactor the project knowledge"**.
+
+For the full workflow, provenance fields, classification rules, historical/future-law handling, citation precision and repository-maintenance policy, read **`PROJECT_GUIDE.md`**. For audit levels, procedure and completion criteria, read **`maintenance/KNOWLEDGE_AUDIT.md`**.
