@@ -1,0 +1,57 @@
+name: Check VTPSI STR freshness
+
+on:
+  schedule:
+    - cron: "23 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - run: pip install -r requirements.txt
+
+      - id: freshness
+        continue-on-error: true
+        run: python scripts/check_vtpsi.py
+
+      - name: Open or reuse freshness issue
+        if: steps.freshness.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          live_date="$(jq -r '.live_update_date // "unknown"' freshness-report.json)"
+          title="VTPSI STR update detected: ${live_date}"
+
+          existing="$(gh issue list --state open --search "${title} in:title" --json title --jq '.[].title' | grep -Fx "${title}" || true)"
+          if [ -n "${existing}" ]; then
+            echo "An open issue already tracks this VTPSI update."
+            exit 0
+          fi
+
+          {
+            echo "The scheduled freshness check found that the live VTPSI STR index differs from the committed baseline."
+            echo
+            echo '```json'
+            cat freshness-report.json
+            echo '```'
+            echo
+            echo "Review the VTPSI index, changed official acts, effective dates, and then update data/str-catalog.json plus any affected knowledge notes."
+          } > issue-body.md
+
+          gh issue create --title "${title}" --body-file issue-body.md
+
+      - name: Fail when stale
+        if: steps.freshness.outcome == 'failure'
+        run: exit 1
