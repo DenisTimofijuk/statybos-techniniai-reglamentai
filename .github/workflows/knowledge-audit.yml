@@ -1,0 +1,43 @@
+name: Knowledge audit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 1 * *"
+
+permissions:
+  contents: read
+
+jobs:
+  mechanical-audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run mechanical knowledge audit
+        run: python scripts/audit_knowledge.py --strict
+
+      - name: Add report to job summary
+        if: always()
+        run: |
+          if [ -f knowledge-audit-report.json ]; then
+            echo "## Knowledge audit report" >> "$GITHUB_STEP_SUMMARY"
+            echo '~~~json' >> "$GITHUB_STEP_SUMMARY"
+            cat knowledge-audit-report.json >> "$GITHUB_STEP_SUMMARY"
+            echo '~~~' >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: knowledge-audit-report
+          path: knowledge-audit-report.json
+          if-no-files-found: warn
