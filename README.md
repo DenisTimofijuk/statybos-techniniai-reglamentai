@@ -4,6 +4,14 @@ This repository is a maintained knowledge base for Lithuanian **Statybos technin
 
 Canonical index: https://vtpsi.lrv.lt/lt/teisine-informacija/teises-aktai-2/statybos-techniniai-reglamentai/
 
+## Start here
+
+For AI / ChatGPT project sessions:
+
+1. **Read `AGENTS.md` first.**
+2. It points to `PROJECT_GUIDE.md` for the complete research, citation and maintenance workflow.
+3. Use the structured catalog and knowledge maps to route questions before researching official legal text.
+
 ## Baseline
 
 - VTPSI page update date: **2026-09-11**
@@ -25,10 +33,13 @@ It is deliberately not a substitute for the official register. e-TAR / e-Seimas 
 
 ## Structure
 
-- `AGENTS.md` — mandatory answer/research protocol
+- `AGENTS.md` — **single session/agent entry point**
+- `PROJECT_GUIDE.md` — detailed research, citation, freshness and maintenance rules
 - `data/str-catalog.json` — machine-readable VTPSI STR inventory and validity metadata
 - `knowledge/REGULATION_MAP.md` — where to look by topic/problem
+- `knowledge/COMMON_DECISION_PATHS.md` — recurring multi-regulation research paths
 - `knowledge/TRANSITIONS_2027.md` — known upcoming changes and replacement rules
+- `scripts/search_catalog.py` — local STR catalog lookup helper
 - `scripts/check_vtpsi.py` — checks the VTPSI page update date and current STR inventory
 - `.github/workflows/check-vtpsi.yml` — scheduled freshness monitor
 
