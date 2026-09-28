@@ -28,6 +28,26 @@ Typical chain:
 4. STR 2.07.01:2003 for water/wastewater-network separation where relevant.
 5. Planning documents, special land-use conditions and Civil Code neighbor rules may impose independent constraints. STR is rarely the entire answer.
 
+## “Can surface water be discharged to the neighbouring plot?”
+
+For facts through **2026-12-31**, if the plot is governed by **STR 2.02.09:2005 „Vienbučiai ir dvibučiai gyvenamieji pastatai“**, start with **9.5.1–9.5.2**:
+- where a communal/local storm sewer exists, surface runoff is to be led to that sewer;
+- where it does not exist, runoff is to be led to ditches, channels, open water bodies, etc.;
+- **9.5.2 expressly prohibits directing surface wastewater over the ground surface into neighbouring plots**.
+
+Also check the general neighbour-protection rule in **Žemės įstatymo 21 straipsnio 7 punktas**: landowners/users conducting activity on their plot must not violate the rights and legally protected interests of neighbouring plot owners/users and residents.
+
+Important distinction:
+- deliberate/engineered redirection (grading, gutters, pipes, pumps, drains) is materially different from water following an unchanged natural terrain;
+- if the legal outcome depends on that distinction, inspect the factual terrain, drainage works, project vertical plan and any servitudes/melioration infrastructure rather than assuming all cross-boundary flow is equivalent.
+
+Official references:
+- STR 2.02.09:2005, 9.5.1–9.5.2: https://www.e-tar.lt/portal/lt/legalAct/TAR.724DD894F26B
+- Žemės įstatymas, 21 str. 7 p.: https://www.e-tar.lt/portal/lt/legalAct/TAR.CC10C5274343
+- VTPSI explanation (2018-01-29): https://vtpsi.lrv.lt/lt/konsultacijos/klausimai-ir-atsakymai/archyvas-viesintos-konsultacijos-iki-2023-06-30/nuo-2018-metu/ii-statybos-valstybine-prieziura-reglamentuojanciu-ir-su-jais-susijusiu-teises-aktu-nuostatu-taikymas-1/28-ivairus-klausimai-susije-su-tp-statiniu-projektavimu-statyba-naudojimu-ir-visu-siu-veiklos-sriciu-prieziura/inspekcijos-isaiskinimai-91/ar-galima-pavirsini-vandeni-is-savo-sklypo-nukreipti-i-kaimyno-sklypa-2018-01-29/
+
+From **2027-01-01**, re-check the rule under **STR 2.02.12:2026 „Pastatai“**, because STR 2.02.09:2005 is repealed at that transition.
+
 ## “What are the accessibility requirements?”
 
 Primary: **STR 2.03.01:2019 „Statinių prieinamumas“**.
