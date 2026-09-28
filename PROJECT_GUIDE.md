@@ -34,7 +34,11 @@ Important files:
 - `knowledge/TRANSITIONS_2027.md` — known future regulatory transition information;
 - `scripts/search_catalog.py` — local catalog lookup helper;
 - `scripts/check_vtpsi.py` — VTPSI freshness checker;
-- `.github/workflows/check-vtpsi.yml` — automated freshness monitoring.
+- `scripts/audit_knowledge.py` — deterministic/mechanical repository-hygiene checker;
+- `maintenance/KNOWLEDGE_AUDIT.md` — semantic audit/refactoring workflow and trigger rules;
+- `maintenance/audit-state.json` — maintenance timestamps and concrete unresolved audit items;
+- `.github/workflows/check-vtpsi.yml` — automated freshness monitoring;
+- `.github/workflows/knowledge-audit.yml` — monthly/manual mechanical hygiene audit.
 
 Treat the repository as persistent project memory, but not as the legal authority.
 
@@ -424,6 +428,28 @@ Keep repository changes focused. A legal answer should not trigger broad refacto
 
 Official sources always override repository notes.
 
+### 14.8 Knowledge audit and refactoring
+
+Repository maintenance has two distinct layers:
+
+1. **Mechanical audit** — deterministic structural checks performed by `scripts/audit_knowledge.py`.
+2. **Semantic/legal audit** — AI-assisted review governed by `maintenance/KNOWLEDGE_AUDIT.md`, with official-source verification for substantive legal changes.
+
+Automatically invoke a **scoped** semantic audit during normal research when a material hygiene trigger is discovered, such as:
+
+- a repository entry contradicts an official source;
+- duplicate or competing canonical explanations exist;
+- routing/cross-references are stale or repeatedly fail;
+- several related findings should be consolidated;
+- current, future and historical regimes have become ambiguous;
+- an important regulation changes status or a transition becomes operative.
+
+Do not turn ordinary question answering into continuous repository-wide refactoring. Use the smallest audit scope that materially improves future research.
+
+A user may explicitly request a full audit at any time. A full audit follows `maintenance/KNOWLEDGE_AUDIT.md` and updates `maintenance/audit-state.json` when completed.
+
+The GitHub workflow `.github/workflows/knowledge-audit.yml` runs the mechanical audit monthly and on manual dispatch. It is intentionally **non-mutating**: scheduled automation detects structural problems but does not autonomously rewrite substantive legal knowledge.
+
 ## 15. New-session procedure
 
 For every new project session involving Lithuanian construction regulation:
@@ -435,6 +461,7 @@ For every new project session involving Lithuanian construction regulation:
 5. verify controlling provisions using official sources;
 6. answer with exact references and effective-date context;
 7. evaluate new findings against the Section 14 persistence gate;
-8. update the repository when verified reusable knowledge would improve future research.
+8. update the repository when verified reusable knowledge would improve future research;
+9. if a maintenance trigger is encountered, apply the scoped workflow in `maintenance/KNOWLEDGE_AUDIT.md`.
 
 The repository tells you where to look and what has already been learned. The official legal sources determine what the law actually says.
