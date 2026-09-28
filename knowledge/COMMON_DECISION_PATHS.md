@@ -39,12 +39,21 @@ Also check the general neighbour-protection rule in **Žemės įstatymo 21 strai
 
 Important distinction:
 - deliberate/engineered redirection (grading, gutters, pipes, pumps, drains) is materially different from water following an unchanged natural terrain;
-- if the legal outcome depends on that distinction, inspect the factual terrain, drainage works, project vertical plan and any servitudes/melioration infrastructure rather than assuming all cross-boundary flow is equivalent.
+- if the neighbouring plot is not governed by the residential-building STR and its relief was altered independently of construction, route first to **Žemės įstatymo 21 straipsnio 7 punktas** rather than forcing the facts into STR 2.02.09:2005;
+- VTPSI's 2021-09-30 published interpretation states that where relief forming is unrelated to construction/project documentation, the landowner must still comply with Žemės įstatymo 21(7), and the relief works must not violate neighbouring owners' rights;
+- a 2025 Supreme Court case, **e3K-3-3-403/2025**, confirms the civil-law route under **CK 4.98** where relief/drainage conditions interfere with a neighbour's use of property; the remedy should require the infringement to be removed while allowing the responsible owner to choose a lawful technical solution;
+- if old drainage ditches, collectors or subsurface drainage may exist, check **Melioracijos įstatymo 3, 5 and 6 straipsniai** and the melioration records before treating the issue as ordinary surface runoff;
+- historical absorption or drainage across a neighbouring parcel should not be assumed, without further evidence, to create a registered/legal drainage right or servitude; check cadastral/servitude and melioration records;
+- if the legal outcome depends on causation, inspect pre/post earthwork elevations, topographic surveys, drainage works, project vertical plans and flood evidence rather than relying only on who is currently lower.
 
 Official references:
 - STR 2.02.09:2005, 9.5.1–9.5.2: https://www.e-tar.lt/portal/lt/legalAct/TAR.724DD894F26B
 - Žemės įstatymas, 21 str. 7 p.: https://www.e-tar.lt/portal/lt/legalAct/TAR.CC10C5274343
 - VTPSI explanation (2018-01-29): https://vtpsi.lrv.lt/lt/konsultacijos/klausimai-ir-atsakymai/archyvas-viesintos-konsultacijos-iki-2023-06-30/nuo-2018-metu/ii-statybos-valstybine-prieziura-reglamentuojanciu-ir-su-jais-susijusiu-teises-aktu-nuostatu-taikymas-1/28-ivairus-klausimai-susije-su-tp-statiniu-projektavimu-statyba-naudojimu-ir-visu-siu-veiklos-sriciu-prieziura/inspekcijos-isaiskinimai-91/ar-galima-pavirsini-vandeni-is-savo-sklypo-nukreipti-i-kaimyno-sklypa-2018-01-29/
+- VTPSI relief-forming explanation (2021-09-30): https://vtpsi.lrv.lt/lt/konsultacijos/klausimai-ir-atsakymai/archyvas-viesintos-konsultacijos-iki-2023-06-30/nuo-2018-metu/ii-statybos-valstybine-prieziura-reglamentuojanciu-ir-su-jais-susijusiu-teises-aktu-nuostatu-taikymas-1/28-ivairus-klausimai-susije-su-tp-statiniu-projektavimu-statyba-naudojimu-ir-visu-siu-veiklos-sriciu-prieziura/inspekcijos-isaiskinimai-91/zemes-sklypo-reljefo-formavimas-2021-09-30/
+- Supreme Court press release on case e3K-3-3-403/2025 (2025-02-13): https://www.lat.lt/naujienos/reikalavimu-nesilaikymas-formuojant-sklypo-reljefa-gali-pazeisti-gretimo-sklypo-savininko-teises/1959
+- Civil Code, CK 4.98: https://www.e-tar.lt/portal/lt/legalAct/TAR.8A39C83848CB
+- Melioracijos įstatymas: https://www.e-tar.lt/portal/lt/legalAct/TAR.D0429A864011
 
 From **2027-01-01**, re-check the rule under **STR 2.02.12:2026 „Pastatai“**, because STR 2.02.09:2005 is repealed at that transition.
 
