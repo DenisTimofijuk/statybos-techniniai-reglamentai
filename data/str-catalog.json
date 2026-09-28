@@ -1,0 +1,790 @@
+{
+  "schema_version": 1,
+  "source_page": "https://vtpsi.lrv.lt/lt/teisine-informacija/teises-aktai-2/statybos-techniniai-reglamentai/",
+  "vtpsi_update_date": "2026-09-11",
+  "captured_on": "2026-09-28",
+  "regulation_count": 63,
+  "notes": [
+    "Canonical list follows the VTPSI page as of the stated update date.",
+    "STR 2.02.12:2026 is published but takes effect on 2027-01-01.",
+    "Seven legacy building-design STRs are marked valid_until=2026-12-31 because Order D1-129 repeals them from 2027-01-01."
+  ],
+  "regulations": [
+    {
+      "code": "STR 1.01.01:2005",
+      "title": "Kultūros paveldo statinio tvarkomųjų statybos darbų reglamentai",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.5DF1BC82C702",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "bendrosios_nuostatos",
+        "normavimas"
+      ]
+    },
+    {
+      "code": "STR 1.01.02:2016",
+      "title": "Normatyviniai statybos techniniai dokumentai",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.9A2DA94909FF/OGWGlVFgMQ",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "bendrosios_nuostatos",
+        "normavimas"
+      ]
+    },
+    {
+      "code": "STR 1.01.03:2017",
+      "title": "Statinių ir patalpų klasifikavimas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/c14e6210afe511e6b844f0f29024f5ac/caRbGSOQbK",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "bendrosios_nuostatos",
+        "klasifikavimas"
+      ]
+    },
+    {
+      "code": "STR 1.01.04:2015",
+      "title": "Statybos produktų, neturinčių darniųjų techninių specifikacijų, eksploatacinių savybių pastovumo vertinimas, tikrinimas ir deklaravimas. Bandymų laboratorijų ir sertifikavimo įstaigų paskyrimas. Nacionaliniai techniniai įvertinimai ir techninio vertinimo įstaigų paskyrimas ir paskelbimas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/ff8727d09fdb11e58fd1fc0b9bba68a7/asr",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "bendrosios_nuostatos",
+        "normavimas"
+      ]
+    },
+    {
+      "code": "STR 1.01.08:2002",
+      "title": "Statinio statybos rūšys",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.B49EEDC9171B/dZsZdTYpHS",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "bendrosios_nuostatos",
+        "normavimas"
+      ]
+    },
+    {
+      "code": "STR 1.02.01:2017",
+      "title": "Statybos dalyvių atestavimo ir teisės pripažinimo tvarkos aprašas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/0b841ee0c05511e688d0ed775a2e782a/HwlbawMHaP",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "kvalifikacija_ir_atestavimas"
+      ]
+    },
+    {
+      "code": "STR 1.02.09:2011",
+      "title": "Teisės atlikti pastatų energinio naudingumo sertifikavimą įgijimo tvarkos aprašas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.851ACB305E06/asr",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "kvalifikacija_ir_atestavimas"
+      ]
+    },
+    {
+      "code": "STR 1.03.01:2016",
+      "title": "Statybiniai tyrimai. Statinio avarija",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/a78c2780a80211e69ad4c8713b612d0f/boHtMTorVN",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "tyrimai_ir_avarijos"
+      ]
+    },
+    {
+      "code": "STR 1.04.02:2011",
+      "title": "Inžineriniai geologiniai ir geotechniniai tyrimai",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.77B02EDEB1E6",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "projektavimas_ir_tyrimai"
+      ]
+    },
+    {
+      "code": "STR 1.04.03:2012",
+      "title": "Inžineriniai geologiniai ir geotechniniai tyrimai Šiaurės Lietuvos karstiniame rajone",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.1EDDE8D55E07",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "projektavimas_ir_tyrimai"
+      ]
+    },
+    {
+      "code": "STR 1.04.04:2017",
+      "title": "Statinio projektavimas, projekto ekspertizė",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/ad75ac40a7dd11e69ad4c8713b612d0f/gdKiiSAEmP",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "projektavimas_ir_tyrimai"
+      ]
+    },
+    {
+      "code": "STR 1.05.01:2017",
+      "title": "Statybą leidžiantys dokumentai. Statybos užbaigimas. Nebaigto statinio registravimas ir perleidimas. Statybos sustabdymas. Savavališkos statybos padarinių šalinimas. Statybos pagal neteisėtai išduotą statybą leidžiantį dokumentą padarinių šalinimas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/585f9850c05211e688d0ed775a2e782a/asr",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "leidimai_ir_statybos_uzbaigimas"
+      ]
+    },
+    {
+      "code": "STR 1.06.01:2016",
+      "title": "Statybos darbai. Statinio statybos priežiūra",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/3ecef840bae411e688d0ed775a2e782a/TwbJroupQS",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "statybos_darbai_ir_prieziura"
+      ]
+    },
+    {
+      "code": "STR 1.07.03:2017",
+      "title": "Statinių techninės ir naudojimo priežiūros tvarka. Naujų nekilnojamojo turto kadastro objektų formavimo tvarka",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/f5109e80ce8811e69e09f35d37acd719/asr",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "naudojimas_ir_technine_prieziura"
+      ]
+    },
+    {
+      "code": "STR 1.12.06:2002",
+      "title": "Statinio naudojimo paskirtis ir gyvavimo trukmė",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.FCD9602FAB5D/fiJjCKQyrd",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "naudojimo_paskirtis_ir_gyvavimo_trukme"
+      ]
+    },
+    {
+      "code": "STR 2.01.01(1):2005",
+      "title": "Esminis statinio reikalavimas „Mechaninis atsparumas ir pastovumas“",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.2C5B83FAC73D",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "esminiai_reikalavimai"
+      ]
+    },
+    {
+      "code": "STR 2.01.01(2):1999",
+      "title": "Esminiai statinio reikalavimai. Gaisrinė sauga",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.6CA64A9DFF4C/KAVXmUaMCM",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "esminiai_reikalavimai"
+      ]
+    },
+    {
+      "code": "STR 2.01.01(3):1999",
+      "title": "Esminiai statinio reikalavimai. Higiena, sveikata, aplinkos apsauga",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.19AD91BDE89C/fyGLhcgtUt",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "esminiai_reikalavimai"
+      ]
+    },
+    {
+      "code": "STR 2.01.01(4):2008",
+      "title": "Esminis statinio reikalavimas „Naudojimo sauga“",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.6D95BE25633B",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "esminiai_reikalavimai"
+      ]
+    },
+    {
+      "code": "STR 2.01.01(5):2008",
+      "title": "Esminis statinio reikalavimas „Apsauga nuo triukšmo“",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.C8F81F7F8F40",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "esminiai_reikalavimai"
+      ]
+    },
+    {
+      "code": "STR 2.01.01(6):2008",
+      "title": "Esminis statinio reikalavimas „Energijos taupymas ir šilumos išsaugojimas“",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.7D230DA0E41F",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "esminiai_reikalavimai"
+      ]
+    },
+    {
+      "code": "STR 2.01.02:2016",
+      "title": "Pastatų energinio naudingumo projektavimas ir sertifikavimas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/2c182f10b6bf11e6aae49c0b9525cbbb/asr",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "esminiai_reikalavimai"
+      ]
+    },
+    {
+      "code": "STR 2.01.05:2003",
+      "title": "Civilinė sauga. Žmonių sanitarinio švarinimo punktų projektavimo reikalavimai",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.36D6A2171133",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "esminiai_reikalavimai"
+      ]
+    },
+    {
+      "code": "STR 2.01.06:2009",
+      "title": "Statinių apsauga nuo žaibo. Išorinė statinių apsauga nuo žaibo",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.361470957F85",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "esminiai_reikalavimai"
+      ]
+    },
+    {
+      "code": "STR 2.01.07:2003",
+      "title": "Pastatų vidaus ir išorės aplinkos apsauga nuo triukšmo",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.BEFE83252B3B/asr",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "esminiai_reikalavimai"
+      ]
+    },
+    {
+      "code": "STR 2.01.08:2003",
+      "title": "Lauko sąlygomis naudojamos įrangos į aplinką skleidžiamo triukšmo valdymas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.C06E5913EFF8/FJJCSeLGFo",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "esminiai_reikalavimai"
+      ]
+    },
+    {
+      "code": "STR 2.02.01:2004",
+      "title": "Gyvenamieji pastatai",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.20B8999D0CC7/lbVUoEjZEo",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "pastatu_ir_statiniu_projektavimas"
+      ],
+      "valid_until": "2026-12-31",
+      "replaced_by": "STR 2.02.12:2026"
+    },
+    {
+      "code": "STR 2.02.02:2004",
+      "title": "Visuomeninės paskirties statiniai",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.B7AFE0723734/NdvLDQQoGT",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "pastatu_ir_statiniu_projektavimas"
+      ],
+      "valid_until": "2026-12-31",
+      "replaced_by": "STR 2.02.12:2026"
+    },
+    {
+      "code": "STR 2.02.03:2003",
+      "title": "Žuvų pralaidos. Pagrindinės nuostatos",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.D3D8753A4C3D",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "pastatu_ir_statiniu_projektavimas"
+      ]
+    },
+    {
+      "code": "STR 2.02.04:2004",
+      "title": "Vandens ėmimas, vandenruoša. Pagrindinės nuostatos",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.328164741613",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "pastatu_ir_statiniu_projektavimas"
+      ]
+    },
+    {
+      "code": "STR 2.02.05:2004",
+      "title": "Nuotekų valyklos. Pagrindinės nuostatos",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.C11DD7347AC0/SkPtoTTUSg",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "pastatu_ir_statiniu_projektavimas"
+      ]
+    },
+    {
+      "code": "STR 2.02.06:2004",
+      "title": "Hidrotechnikos statiniai. Pagrindinės nuostatos",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.4DD51450EF74",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "pastatu_ir_statiniu_projektavimas"
+      ]
+    },
+    {
+      "code": "STR 2.02.07:2012",
+      "title": "Sandėliavimo, gamybos ir pramonės statiniai. Pagrindiniai reikalavimai",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.8EF1358E6A4D/mlGDAoVIWr",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "pastatu_ir_statiniu_projektavimas"
+      ],
+      "valid_until": "2026-12-31",
+      "replaced_by": "STR 2.02.12:2026"
+    },
+    {
+      "code": "STR 2.02.08:2012",
+      "title": "Automobilių saugyklų projektavimas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.C2B38E4BAC50/vzqxJgwdmT",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "pastatu_ir_statiniu_projektavimas"
+      ],
+      "valid_until": "2026-12-31",
+      "replaced_by": "STR 2.02.12:2026"
+    },
+    {
+      "code": "STR 2.02.09:2005",
+      "title": "Vienbučiai ir dvibučiai gyvenamieji pastatai",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.724DD894F26B/exTuVrKgne",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "pastatu_ir_statiniu_projektavimas"
+      ],
+      "valid_until": "2026-12-31",
+      "replaced_by": "STR 2.02.12:2026"
+    },
+    {
+      "code": "STR 2.02.11:2004",
+      "title": "Šaldomieji pastatai ir patalpos",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.907EFC38C840",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "pastatu_ir_statiniu_projektavimas"
+      ],
+      "valid_until": "2026-12-31",
+      "replaced_by": "STR 2.02.12:2026"
+    },
+    {
+      "code": "STR 2.03.01:2019",
+      "title": "Statinių prieinamumas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/103022d0ffbe11e99681cd81dcdca52c",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "sklypai_prieinamumas_ir_apsauga"
+      ]
+    },
+    {
+      "code": "STR 2.03.02:2005",
+      "title": "Gamybos, pramonės ir sandėliavimo statinių sklypų tvarkymas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.16C15369E365/fWJjrZSVLp",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "sklypai_prieinamumas_ir_apsauga"
+      ],
+      "valid_until": "2026-12-31",
+      "replaced_by": "STR 2.02.12:2026"
+    },
+    {
+      "code": "STR 2.03.03:2005",
+      "title": "Inžinerinės teritorijų apsaugos nuo patvenkimo ir užtvinimo projektavimas. Pagrindinės nuostatos",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.E37C803CFF79",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "sklypai_prieinamumas_ir_apsauga"
+      ]
+    },
+    {
+      "code": "STR 2.04.01:2018",
+      "title": "Pastatų atitvaros. Sienos, stogai, langai ir išorinės įėjimo durys",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/1aa5acc055ce11e9975f9c35aedfe438",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "atitvaros"
+      ]
+    },
+    {
+      "code": "STR 2.05.03:2003",
+      "title": "Statybinių konstrukcijų projektavimo pagrindai",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.EB554E4C6BFA/KnETqyqgfX",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.05.04:2003",
+      "title": "Poveikiai ir apkrovos",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.E5D5DC3C496B/QggipAbUWC",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.05.05:2005",
+      "title": "Betoninių ir gelžbetonių konstrukcijų projektavimas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.C8C4EF7FF7AE/rTLfZhDSux",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.05.06:2005",
+      "title": "Aliumininių konstrukcijų projektavimas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.25D2DA737B0D",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.05.07:2005",
+      "title": "Medinių konstrukcijų projektavimas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.512A0B6F80FA",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.05.08:2005",
+      "title": "Plieninių konstrukcijų projektavimas. Pagrindinės nuostatos",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.3B040391D530/glIZafXdtX",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.05.09:2005",
+      "title": "Mūrinių konstrukcijų projektavimas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.14469B0FE308",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.05.10:2005",
+      "title": "Armocementinių konstrukcijų projektavimas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.7FF0BFA4C95C",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.05.11:2005",
+      "title": "Gaisro temperatūrų veikiamų gelžbetoninių konstrukcijų projektavimas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.4C9BDA386FC7",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.05.12:2005",
+      "title": "Betoninių ir gelžbetoninių konstrukcijų iš tankiojo silikatbetonio projektavimas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.31B952AEA32A",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.05.13:2004",
+      "title": "Statinių konstrukcijos. Grindys",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.E737DAE7AF62",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.05.14:2005",
+      "title": "Hidrotechnikos statinių pagrindų ir pamatų projektavimas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.7873D8C1C12C",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.05.15:2004",
+      "title": "Hidrotechnikos statinių poveikiai ir apkrovos",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.78FDCC9C8A0B",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.05.17:2005",
+      "title": "Gruntinių medžiagų užtvankos",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.C59F182A58B4",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.05.18:2005",
+      "title": "Betoninės ir gelžbetoninės užtvankos ir jų konstrukcijos",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.DFCD278D787D",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.05.19:2015",
+      "title": "Inžinerinė hidrologija. Pagrindiniai skaičiavimų reikalavimai",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.9DAD1DA9D0EC",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.05.21:2016",
+      "title": "Geotechninis projektavimas. Bendrieji reikalavimai",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/f701a690440311e6bd3bfefc575ccac4",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "konstrukcijos_ir_geotechnika"
+      ]
+    },
+    {
+      "code": "STR 2.06.04:2014",
+      "title": "Gatvės ir vietinės reikšmės keliai. Bendrieji reikalavimai",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.4DB4BDB4B44C/asr",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "gatves_ir_keliai"
+      ]
+    },
+    {
+      "code": "STR 2.07.01:2003",
+      "title": "Vandentiekis ir nuotekų šalintuvas. Pastato inžinerinės sistemos. Lauko inžineriniai tinklai",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.EFD8078E42A8/yqWNgmVDCv",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "inzinierines_sistemos_ir_civiline_sauga"
+      ]
+    },
+    {
+      "code": "STR 2.09.02:2005",
+      "title": "Šildymas, vėdinimas ir oro kondicionavimas",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.1F3FB56815CB/ceqlwKNcLd",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "sildymas_vedinimas_ir_oro_kondicionavimas"
+      ]
+    },
+    {
+      "code": "STR 2.07.02:2024",
+      "title": "Slėptuvės, kolektyvinės apsaugos statinio ir priedangos projektavimo ir įrengimo reikalavimai",
+      "status": "active",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/bf1b8290d64611eead77e967e3995264/asr",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "inzinierines_sistemos_ir_civiline_sauga"
+      ]
+    },
+    {
+      "code": "STR 2.01.12:2024",
+      "title": "Statybų klimatologija",
+      "status": "active",
+      "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/60c1acd17f6311ef84ff9693ecd03ff5",
+      "source_registry": "e-Seimas",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "esminiai_reikalavimai"
+      ]
+    },
+    {
+      "code": "STR 2.02.12:2026",
+      "title": "Pastatai",
+      "status": "future",
+      "source_url": "https://www.e-tar.lt/portal/lt/legalAct/753873807a8c11f1b53dfa020e517810/asr",
+      "source_registry": "e-TAR",
+      "vtpsi_listed": true,
+      "vtpsi_snapshot_date": "2026-09-11",
+      "topics": [
+        "pastatu_ir_statiniu_projektavimas"
+      ],
+      "effective_from": "2027-01-01"
+    }
+  ]
+}
