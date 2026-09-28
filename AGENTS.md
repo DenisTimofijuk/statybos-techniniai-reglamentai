@@ -42,6 +42,23 @@ Do not answer current legal questions from memory alone.
 
 ## Maintenance rule
 
-When research produces reusable knowledge, a regulatory change, a corrected source, an important cross-reference, or a useful decision path, update this repository rather than leaving the finding only in chat history.
+The repository should improve through use, but **not every new fact belongs in persistent knowledge**.
 
-For the full workflow, classification rules, historical/future-law handling, citation precision and repository-maintenance policy, read **`PROJECT_GUIDE.md`**.
+Persist a finding only when it is reusable and has been verified well enough to improve future research, such as:
+
+- a regulatory change or effective-date correction;
+- a confirmed cross-reference;
+- a corrected official source;
+- a transition rule;
+- a recurring decision path;
+- a durable interpretation or research shortcut that is clearly distinguished from legal text.
+
+Before persisting regulatory knowledge:
+
+1. verify the controlling source using the official-source hierarchy;
+2. record enough provenance to re-check the finding later;
+3. distinguish verbatim legal requirements from interpretation or administrative guidance;
+4. preserve applicable effective-date / historical context;
+5. avoid turning user-specific facts, unsupported assumptions, or tentative reasoning into project knowledge.
+
+For the full workflow, provenance fields, classification rules, historical/future-law handling, citation precision and repository-maintenance policy, read **`PROJECT_GUIDE.md`**.
