@@ -41,7 +41,11 @@ It is deliberately not a substitute for the official register. e-TAR / e-Seimas 
 - `knowledge/TRANSITIONS_2027.md` — known upcoming changes and replacement rules
 - `scripts/search_catalog.py` — local STR catalog lookup helper
 - `scripts/check_vtpsi.py` — checks the VTPSI page update date and current STR inventory
+- `scripts/audit_knowledge.py` — mechanical documentation/catalog hygiene checks
+- `maintenance/KNOWLEDGE_AUDIT.md` — full/scoped semantic audit and refactoring procedure
+- `maintenance/audit-state.json` — audit state and unresolved maintenance items
 - `.github/workflows/check-vtpsi.yml` — scheduled freshness monitor
+- `.github/workflows/knowledge-audit.yml` — monthly/manual mechanical knowledge audit
 
 ## Source hierarchy
 
@@ -57,3 +61,15 @@ Before relying on this repository for a date-sensitive answer, compare the live 
 If the dates differ, treat the repository as stale until the changed inventory/editions are reviewed.
 
 > Legal texts change. An answer without an edition/effective-date check is merely a very organized way to be wrong.
+
+
+## Knowledge maintenance
+
+The repository uses a two-layer hygiene model:
+
+- **mechanical checks** detect structural problems without interpreting law;
+- **semantic/legal audits** consolidate and refactor knowledge only after appropriate official-source verification.
+
+Run `python scripts/audit_knowledge.py` for a local mechanical check, or follow `maintenance/KNOWLEDGE_AUDIT.md` for a full audit. The mechanical audit also runs monthly in GitHub Actions and can be dispatched manually.
+
+During ordinary research, the AI should invoke a **scoped** audit automatically when it encounters contradictions, stale routing, duplicated canonical knowledge, transition/status changes or similar maintenance debt. It should not perform repository-wide refactors merely because a new question was asked.
