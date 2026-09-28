@@ -38,6 +38,8 @@ Important files:
 
 Treat the repository as persistent project memory, but not as the legal authority.
 
+Use project/chat history as **working context**. Use this repository for **durable, reusable knowledge** that should survive individual conversations. Important research should not depend on the model vaguely remembering an earlier chat.
+
 ## 3. Official source hierarchy
 
 ### Primary legal sources
@@ -323,7 +325,9 @@ Correct a faulty premise before building the rest of the answer around it.
 
 ## 14. Repository maintenance
 
-The repository should improve through use.
+The repository should improve through use, but persistence is a **quality-controlled step**, not an automatic dump of every conversation.
+
+### 14.1 What should be persisted
 
 Commit reusable findings such as:
 
@@ -334,13 +338,89 @@ Commit reusable findings such as:
 - recurring decision paths;
 - corrected official URLs;
 - normalized metadata;
-- useful retrieval/checking tooling.
+- useful retrieval/checking tooling;
+- durable interpretation notes that materially improve future research and are clearly identified as interpretation rather than legal text.
 
-Do not store unsupported speculation as project knowledge.
+A finding is a good persistence candidate when it is likely to help future questions beyond the immediate user's facts.
 
-Prefer structured, searchable information over miscellaneous prose.
+### 14.2 Persistence gate
 
-When information becomes obsolete, preserve useful effective-date/history context rather than silently erasing it.
+Before storing regulatory knowledge, verify that:
+
+1. the finding is reusable rather than merely case-specific;
+2. the controlling rule has been checked against the official-source hierarchy;
+3. the relevant legal edition/effective date has been established;
+4. material exceptions, transition rules and cross-references have been checked;
+5. legal text, administrative guidance and interpretation are clearly distinguished;
+6. the new information does not merely duplicate an existing repository entry;
+7. the update makes future retrieval or reasoning materially better.
+
+If a potentially useful finding is still uncertain, **do not promote it into authoritative project knowledge yet**. Continue research or preserve it only in a clearly marked non-authoritative research note if such a note is genuinely useful.
+
+### 14.3 Provenance requirements
+
+For new or materially changed regulatory knowledge, preserve enough context to allow another researcher or future AI session to independently re-check it.
+
+Where applicable, record:
+
+- **legal act** — number and title;
+- **provision** — exact point, subpoint, appendix, table, row/category or note;
+- **source URL** — preferably e-TAR, then e-Seimas, with VTPSI for index/guidance context;
+- **source type** — legal text, amendment, consolidated text, administrative guidance, etc.;
+- **legal status** — current, future, historical, repealed/replaced where relevant;
+- **effective from** — date from which the rule applies;
+- **effective to / repeal date** — when relevant;
+- **verified on** — date the official source was checked;
+- **knowledge type** — explicit legal rule, cross-reference, administrative guidance, interpretation, research path or tooling note;
+- **scope/conditions** — the classification or factual conditions under which the finding applies;
+- **transition/exception notes** — when they materially affect application.
+
+Not every file needs a rigid metadata block. Use the structure appropriate to the file, but do not omit provenance merely because prose is easier to write.
+
+### 14.4 Legal text vs interpretation
+
+Persistent notes must make the distinction obvious:
+
+- **Legal rule**: directly supported by the applicable legal text.
+- **Administrative guidance**: an official authority's explanation or practice; useful but not equivalent to legislation.
+- **Interpretation**: reasoned application or synthesis derived from legal sources.
+- **Research path**: a reliable method for locating or checking the controlling rule.
+
+Do not rewrite an interpretation so that it reads like statutory wording.
+
+When an interpretation is important enough to persist, preserve the underlying legal references that support it and note material uncertainty.
+
+### 14.5 What should not be persisted as project knowledge
+
+Do not store as durable knowledge:
+
+- unsupported speculation;
+- unverified claims from secondary sources;
+- one user's private or case-specific facts unless generalized into a reusable rule without personal detail;
+- assumptions made only to answer an incomplete question;
+- conclusions whose applicable legal edition was not established;
+- model-generated summaries with no recoverable source;
+- duplicate notes that add no retrieval value.
+
+### 14.6 Updating existing knowledge
+
+Prefer improving an existing canonical entry over creating competing fragments.
+
+When information becomes obsolete:
+
+- preserve useful effective-date/history context rather than silently erasing it;
+- mark replaced or historical rules clearly;
+- update cross-references and routing maps that would otherwise send future research to stale material.
+
+When an official source contradicts repository content, **correct the repository** and preserve enough context to understand why the earlier entry changed.
+
+### 14.7 Maintenance behavior during normal research
+
+Do not require the user to explicitly ask for repository maintenance every time.
+
+After substantive research, independently evaluate whether the result passes the persistence gate. If it does and repository write access is available, update the appropriate file as part of the research workflow.
+
+Keep repository changes focused. A legal answer should not trigger broad refactoring unless the research actually exposes a structural problem.
 
 Official sources always override repository notes.
 
@@ -354,6 +434,7 @@ For every new project session involving Lithuanian construction regulation:
 4. verify currentness when relevant;
 5. verify controlling provisions using official sources;
 6. answer with exact references and effective-date context;
-7. update the repository when reusable knowledge is discovered.
+7. evaluate new findings against the Section 14 persistence gate;
+8. update the repository when verified reusable knowledge would improve future research.
 
 The repository tells you where to look and what has already been learned. The official legal sources determine what the law actually says.
