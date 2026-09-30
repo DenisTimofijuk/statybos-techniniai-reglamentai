@@ -1,6 +1,12 @@
 name: Check VTPSI STR freshness
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/check_vtpsi.py"
+      - ".github/workflows/check-vtpsi.yml"
   schedule:
     - cron: "23 4 * * *"
   workflow_dispatch:
@@ -23,11 +29,18 @@ jobs:
       - run: pip install -r requirements.txt
 
       - id: freshness
-        continue-on-error: true
-        run: python scripts/check_vtpsi.py
+        name: Check VTPSI freshness
+        shell: bash
+        run: |
+          set +e
+          python scripts/check_vtpsi.py
+          exit_code=$?
+          set -e
+          echo "exit_code=${exit_code}" >> "$GITHUB_OUTPUT"
+          echo "VTPSI freshness checker exit code: ${exit_code}"
 
       - name: Open or reuse freshness issue
-        if: steps.freshness.outcome == 'failure'
+        if: steps.freshness.outputs.exit_code == '2'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -53,5 +66,12 @@ jobs:
           gh issue create --title "${title}" --body-file issue-body.md
 
       - name: Fail when stale
-        if: steps.freshness.outcome == 'failure'
+        if: steps.freshness.outputs.exit_code == '2'
         run: exit 1
+
+      - name: Fail when freshness check cannot run
+        if: steps.freshness.outputs.exit_code != '0' && steps.freshness.outputs.exit_code != '2'
+        run: |
+          echo "::error::VTPSI freshness check could not complete. This is an infrastructure/source-access failure, not evidence that the catalog is stale."
+          cat freshness-report.json || true
+          exit 1
