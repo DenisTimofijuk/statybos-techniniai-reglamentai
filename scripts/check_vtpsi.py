@@ -70,7 +70,6 @@ def build_session() -> requests.Session:
 
 
 def extract_live(content: str) -> tuple[str, list[str]]:
-    # This works for both VTPSI HTML and the fallback's rendered Markdown.
     text = BeautifulSoup(content, "html.parser").get_text(" ", strip=True)
 
     date_match = DATE_RE.search(text)
@@ -103,6 +102,9 @@ def fetch_live(source: str, timeout: int = 30) -> tuple[str, list[str], str]:
                 headers={
                     "Accept": "text/plain",
                     "X-No-Cache": "true",
+                    "X-Return-Format": "html",
+                    "X-Target-Selector": "body",
+                    "X-Locale": "lt-LT",
                     "DNT": "1",
                 },
                 timeout=timeout,
