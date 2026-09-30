@@ -1,12 +1,6 @@
 name: Check VTPSI STR freshness
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "scripts/check_vtpsi.py"
-      - ".github/workflows/check-vtpsi.yml"
   schedule:
     - cron: "23 4 * * *"
   workflow_dispatch:
@@ -69,9 +63,32 @@ jobs:
         if: steps.freshness.outputs.exit_code == '2'
         run: exit 1
 
-      - name: Fail when freshness check cannot run
+      - name: Record source-access problem without claiming staleness
         if: steps.freshness.outputs.exit_code != '0' && steps.freshness.outputs.exit_code != '2'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          echo "::error::VTPSI freshness check could not complete. This is an infrastructure/source-access failure, not evidence that the catalog is stale."
+          title="VTPSI freshness monitor cannot access official source"
+          existing="$(gh issue list --state open --search "${title} in:title" --json title --jq '.[].title' | grep -Fx "${title}" || true)"
+
+          echo "::warning::VTPSI freshness check could not complete. This is not evidence that the STR catalog is stale."
           cat freshness-report.json || true
-          exit 1
+
+          if [ -n "${existing}" ]; then
+            echo "An open issue already tracks the source-access problem."
+            exit 0
+          fi
+
+          {
+            echo "The scheduled VTPSI freshness monitor cannot currently fetch the official VTPSI STR index from a GitHub-hosted runner."
+            echo
+            echo "This is a monitoring/infrastructure problem, **not evidence that the STR catalog is stale**."
+            echo
+            echo '```json'
+            cat freshness-report.json
+            echo '```'
+            echo
+            echo "The checker still attempts a direct official-source request. Resolve or replace the runner/network path before treating this automated monitor as a complete freshness check."
+          } > issue-body.md
+
+          gh issue create --title "${title}" --body-file issue-body.md
