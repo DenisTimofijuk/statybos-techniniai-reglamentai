@@ -1,11 +1,12 @@
 {
   "schema_version": 1,
-  "last_full_audit": null,
-  "last_mechanical_audit": null,
-  "last_vtpsi_check": "2026-09-28",
+  "last_full_audit": "2026-10-01",
+  "last_mechanical_audit": "2026-10-01",
+  "last_vtpsi_check": "2026-10-01",
   "open_issues": [],
   "notes": [
     "Set last_full_audit only after a repository-wide semantic/legal hygiene review.",
-    "Mechanical CI runs do not by themselves count as a full audit."
+    "Mechanical CI runs do not by themselves count as a full audit.",
+    "2026-10-01 full audit: mechanical structure reproduced cleanly; live VTPSI STR index remained at update date 2026-09-11 with the catalog baseline still current; STR 2.02.12:2026 remained published but not effective until 2027-01-01; no justified substantive knowledge refactor identified."
   ]
 }
