@@ -57,6 +57,35 @@ Official references:
 
 From **2027-01-01**, re-check the rule under **STR 2.02.12:2026 „Pastatai“**, because STR 2.02.09:2005 is repealed at that transition.
 
+## “How close to a neighbouring boundary may plants be planted?” (non-forest land)
+
+**Research route; checked 2026-10-24.** This is not exclusively an STR question. Classify the plant (tree/shrub/liana vs herbaceous flower), land use (private residential/summer-garden vs agricultural crop vs forest), whether a hedge is being formed, side of plot, planted/formative height, date of planting, and neighbour's written consent.
+
+1. **Aplinkos ministro 2007-12-29 įsakymas Nr. D1-717, „Želdynų įrengimo ir želdinių veisimo taisyklės“ (consolidated from 2022-01-20):** Rules 2, 5.1, 5.10, 5.11 and appendix rows 1–6. For trees and shrubs on private non-forest land without adjacent owner's/manager's written consent:
+   - Individuals capable of exceeding 3 m, or formed above 3 m: **5 m north** (azimuth 315°–45° from centre of plot), **3 m** other sides.
+   - Individuals capable of growing 2–3 m, or formed to 3 m: **2 m** all sides.
+   - Individuals up to 2 m, or formed to 2 m: **1 m** all sides.
+   - Hedge separating plots: **1 m**, maintained no higher than **1.3 m on north side**, **2 m other sides**.
+   - Woody climbers/lianas: **0.5 m**; written consent required for growing them on boundary-adjoining walls/fences/installations (5.10).
+   - The table distinguishes **height/formation**, *not merely tree versus shrub*. Never state all bushes can always be planted 1 m from the boundary. Written neighbour consent can allow a smaller appendix distance.
+2. **STR 2.02.09:2005 „Vienbučiai ir dvibučiai gyvenamieji pastatai“, appendix 9, points 5.1–5.3 and 6** (applicable through 2026-12-31 in relevant residential plot setting): sets **at least** 1 m for shrubs/hedges, 2 m for trees up to 3 m, 3 m for other trees; north-side hedge max 1.3 m. Assess **alongside** the D1-717 appendix rather than assuming the STR's lower minimum overrides a stricter tree/shrub-height-specific requirement.
+3. **Sodininkų bendrijų įstatymas (Nr. IX-1934), art. 6(8)** (current consolidated from 2024-01-01): in amateur garden plots, high trees at least 3 m (north 5 m absent neighbour consent), low trees 2 m, bushes 1 m; a hedge straddling the shared boundary needs written consent; point 8(4) allows narrower distances by written consent. Article 6(8) also explicitly refers plant care to Želdynų įstatymas and implementing regulations; cross-check D1-717 for taller bushes.
+4. **Želdynų įstatymas (Nr. X-1241), art. 1(2) and 2** (consolidated from 2025-01-01): excludes **agricultural plants growing in agricultural-purpose land** and forest land (subject to its stated exceptions). Thus *fruit-bearing raspberries grown as agricultural crops* may have a different legal regime; do not automatically impose the ornamental-shrub distance without verifying land designation and purpose. Article 2 defines shrub through woody multi-stem growth, and “želdiniai” as trees, shrubs, lianas. **Herbaceous flowers (e.g., peonies) are not in the D1-717 tree/shrub setback categories**; no 1 m/2 m/3 m planting-distance requirement can be inferred merely because a flower is tall. Ownership/neighbour-right rules still apply.
+5. For historical disputes verify the law **at planting date**. AAD's official planting guidance says that the D1-717 private-land boundary-distance requirement started **2016-08-25**, not retrospectively for earlier plantings; but older residential STR / amateur-garden / local rules may apply to earlier facts. Do not treat 2016 as blanket immunity for all earlier garden/residential plants.
+6. From **2027-01-01** recheck any residential-plot cross-reference under **STR 2.02.12:2026 „Pastatai“**, which repeals STR 2.02.09:2005; D1-717 and other non-STR legislation must be checked independently.
+7. If stems, branches or roots cross the boundary or genuinely interfere with use, check **Civil Code art. 4.42** (notice/opportunity to remove; no automatic self-help if they do not interfere) and **art. 4.98** where interference persists. Physical crossing and breach of planting distance are separate questions. Also check special-use/protection zones and any municipality-specific rules.
+
+**Source/provenance (official text/guidance unless stated):**
+- D1-717 legal act and consolidated 2022 edition: https://www.e-tar.lt/portal/lt/legalAct/TAR.F467B46501DE ; https://e-seimas.lrs.lt/rs/actualedition/TAIS.312347/EDZUDfNkiV/
+- AAD planting-distance table and historical note: https://aad.lrv.lt/lt/konsultacijos/atmintines/augalai/zeldiniu-prieziura-tvarkymas-ir-apsauga/
+- STR 2.02.09:2005, app. 9: https://www.e-tar.lt/portal/lt/legalAct/TAR.724DD894F26B
+- Sodininkų bendrijų įstatymas: https://www.e-tar.lt/portal/lt/legalAct/TAR.FD474D5CE327
+- Želdynų įstatymas: https://www.e-tar.lt/portal/lt/legalAct/TAR.BA283DF0FB41
+- CK: https://www.e-tar.lt/portal/lt/legalAct/TAR.8A39C83848CB
+- Administrative cross-check, Aplinkos ministerija (2022-03-30): https://am.lrv.lt/lt/naujienos/primename-kaip-sodinti-augalus-kad-nesusipyktumete-su-kaimynais/
+- Legal/administrative case cross-check: https://lagk.lrv.lt/media/viesa/saugykla/2024/5/OHS-C0MxhKA.pdf (2024-03-13, especially p. 7 discussing the 2022 D1-717 text and historical superseded requirements)
+- VTPSI STR index checked **2026-10-24**, page updated **2026-09-11**, equals repository baseline: https://vtpsi.lrv.lt/lt/teisine-informacija/teises-aktai-2/statybos-techniniai-reglamentai/
+
 ## “What are the accessibility requirements?”
 
 Primary: **STR 2.03.01:2019 „Statinių prieinamumas“**.
