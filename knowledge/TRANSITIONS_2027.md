@@ -28,6 +28,16 @@ Order D1-129, point 2, repeals:
 
 Those seven remain the current regulations through **2026-12-31** unless independently amended earlier.
 
+## Cross-reference substitution and source-text discrepancy (verified 2026-11-01)
+
+**Legal text — Order D1-129, point 3.2:** From the order's effective date, references in other legal acts to the seven orders repealed by point 2 are treated as references to D1-129; references to the STRs approved by those repealed orders are treated as references to the newly approved building-design STR. This is a cross-reference substitution rule, not a claim that the old requirements remain substantively unchanged.
+
+**Documented discrepancy — not an authoritative correction:** Point 3.2 literally names the replacement **`STR 2.02.12:2025 „Pastatai“`**, while the order's heading, point 1 and the approved regulation itself consistently name **`STR 2.02.12:2026 „Pastatai“`**. This appears to be a drafting/reference inconsistency carried over from the 2025 draft. Do **not** create a separate 2025 catalog entry or silently rewrite the official wording. Treat the 2026 approved regulation as the identified new act, and re-check the official text for a correction or authoritative clarification when the reference matters to a legal conclusion.
+
+**Official sources (checked 2026-11-01):**
+- e-TAR, Order D1-129, points 1, 2.1–2.7 and 3.1–3.2: https://www.e-tar.lt/rs/legalact/753873807a8c11f1b53dfa020e517810/
+- e-Seimas, same order: https://e-seimas.lrs.lt/rs/legalact/TAD/94a49b527b0311f1864de6d16ef2f8a6/
+
 ## Research consequence
 
 Never answer a building-design question merely by matching keywords. Resolve the relevant date:
