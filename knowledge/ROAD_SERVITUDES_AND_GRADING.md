@@ -1,0 +1,13 @@
+# Kelio servitutas: priežiūra, kelio tiesimas, sankasa ir reljefo keitimas
+
+Patikrinta: 2026-11-01. Tipas: teisės normų nuorodos ir praktinis tyrimo kelias. Ši santrauka nėra teisės aktas.
+
+1. Pirmiausia nustatyti tikslią servituto apimtį pagal registrą ir jį nustačiusį dokumentą; atskirti teisę važiuoti nuo aiškiai suteiktos teisės tiesti kelius. Projektinio brėžinio pastaba nėra registruoto servituto įrodymas.
+2. CK 4.112 str.: servituto turinys, paskirtis ir keitimas; 4.113 str.: mažiausias suvaržymas ir kitų savininkų teisės; 4.114 str.: tinkama priežiūra; 4.117 ir 4.119 str.: kelio servitutas; 4.98 str.: nuosavybės teisių gynimas. Šaltinis: https://www.e-tar.lt/portal/lt/legalAct/TAR.8A39C83848CB
+3. LAT 2023-09-12, e3K-3-181-403/2023, 44–53 punktai: naujos sankasos, griovių ir kelio elementų įrengimas gali būti nauja statyba, ne remontas; servituto negalima išplėsti kitai veiklai skirtam sunkiasvorių transporto keliui vien reikalaujant leisti remontą. Faktinę situaciją būtina atskirti nuo gyvenamosios paskirties sklypo ir aiškiai suteiktos kelio tiesimo teisės. Nutartis: https://liteko.teismai.lt/viesasprendimupaieska/tekstas.aspx?id=a56a9a84-f1a6-4ef5-82ab-259585edecb3
+4. Iki 2026-12-31 taikomais atvejais STR 2.02.09:2005, 9.5–9.6.2 p.: nuotekų nuvedimas ir sklypo/privažiavimo parametrai; privažiavimo prie namo plotis ≥3,5 m, išilginis nuolydis ≤12 %. Tai nereiškia, kad tie patys skaičiai galioja visoms kelio kategorijoms. Šaltinis: https://www.e-tar.lt/portal/lt/legalAct/TAR.724DD894F26B
+5. Patikrinti Statybos įstatymo 3 ir 27 str., STR 1.01.03:2017, STR 1.05.01:2017, STR 2.06.04:2014 ir projektavimo dokumentus. Statybos leidimas ir daiktinė teisė atlikti darbus yra atskiri klausimai.
+6. Vanduo, grunto stabilumas, atraminės sienelės ir gretimo savininko interesai turi būti išspręsti techniniais sprendiniais, vertinant faktinį ir projektinį aukščių profilį. Žemės įstatymo 21 str. 7 p., CK 4.98 str.; susijusi vandens nuvedimo tyrimo kryptis jau pateikta COMMON_DECISION_PATHS.md.
+7. Nuo 2027-01-01 STR 2.02.09:2005 pakeičiamas STR 2.02.12:2026; naujiems sprendiniams reikia tikrinti naują reguliavimą.
+
+VTPSI STR katalogas patikrintas 2026-11-01: puslapio atnaujinimas 2026-09-11, sutampa su repozitorijos baze.
