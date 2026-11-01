@@ -1,12 +1,30 @@
 {
   "schema_version": 1,
-  "last_full_audit": "2026-10-01",
-  "last_mechanical_audit": "2026-10-01",
-  "last_vtpsi_check": "2026-10-01",
-  "open_issues": [],
+  "last_full_audit": "2026-11-01",
+  "last_mechanical_audit": "2026-11-01",
+  "last_vtpsi_check": "2026-11-01",
+  "open_issues": [
+    {
+      "id": "d1-129-point-3-2-year-mismatch",
+      "level": 3,
+      "area": "2027 building-design transition",
+      "detected": "2026-11-01",
+      "reason": "Official D1-129 point 3.2 refers to STR 2.02.12:2025 although the approved regulation and point 1 say STR 2.02.12:2026. Documented in knowledge/TRANSITIONS_2027.md; monitor official correction/clarification, do not silently amend the source text.",
+      "official_source": "https://www.e-tar.lt/rs/legalact/753873807a8c11f1b53dfa020e517810/"
+    },
+    {
+      "id": "vtpsi-monitor-source-access",
+      "level": 1,
+      "area": "automated VTPSI freshness monitoring",
+      "detected": "2026-09-30",
+      "reason": "GitHub-hosted runner has previously received HTTP 403 from the VTPSI page; the live index was verified through a separate source-access path on 2026-11-01, but this does not prove that the GitHub runner is fixed.",
+      "tracking_issue": "https://github.com/DenisTimofijuk/statybos-techniniai-reglamentai/issues/1"
+    }
+  ],
   "notes": [
     "Set last_full_audit only after a repository-wide semantic/legal hygiene review.",
     "Mechanical CI runs do not by themselves count as a full audit.",
-    "2026-10-01 full audit: mechanical structure reproduced cleanly; live VTPSI STR index remained at update date 2026-09-11 with the catalog baseline still current; STR 2.02.12:2026 remained published but not effective until 2027-01-01; no justified substantive knowledge refactor identified."
+    "2026-10-01 full audit: mechanical structure reproduced cleanly; live VTPSI STR index remained at update date 2026-09-11 with the catalog baseline still current; STR 2.02.12:2026 remained published but not effective until 2027-01-01; no justified substantive knowledge refactor identified.",
+    "2026-11-01 full audit: mechanical checks reproduced with 0 errors/0 warnings (repository files fetched through GitHub connector); live VTPSI index updated 2026-09-11 and 63 listed STR codes matched the catalog baseline; D1-129 official e-TAR/e-Seimas texts confirm 2027-01-01 effective date and seven repeals. Focused edits documented the 3.2 2025/2026 reference discrepancy and corrected provenance of a Supreme Court press summary. Open items track official text discrepancy and GitHub-runner VTPSI access; no unverified legal rewrite or broad refactoring."
   ]
 }
