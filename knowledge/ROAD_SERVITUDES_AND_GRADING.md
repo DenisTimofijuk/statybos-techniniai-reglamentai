@@ -11,3 +11,6 @@ Patikrinta: 2026-11-01. Tipas: teisės normų nuorodos ir praktinis tyrimo kelia
 7. Nuo 2027-01-01 STR 2.02.09:2005 pakeičiamas STR 2.02.12:2026; naujiems sprendiniams reikia tikrinti naują reguliavimą.
 
 VTPSI STR katalogas patikrintas 2026-11-01: puslapio atnaujinimas 2026-09-11, sutampa su repozitorijos baze.
+
+8. Jei kelias aptarnauja kelis viešpataujančius sklypus ir eina per kelis atskirus tarnaujančiuosius sklypus, kiekvienam koridoriui atskirai nustatyti jo ribas, turinį, savininką, naudotojus ir faktines jungčių altitudes. Vieno gavėjo užbaigtas įvažiavimas savaime nereiškia pareigos finansuoti kito gavėjo nepravažiuojamą atkarpą; vertinti CK 4.114, sutarties nuostatas, faktinį naudojimą ir galimus jo darbų sukeltus trukdžius.
+9. Atskirkite viešojo ar bendro privažiavimo kelio projektą (ir jo suderinimą) nuo privataus servitutinio koridoriaus projekto; namo projekto eilutė „keliai (gatvės) – esami“ savaime nereiškia, kad konkretaus privataus koridoriaus sankasa suprojektuota arba leista. Kaimyno sutikimas kietai dangai prie bendros ribos nėra sutikimas pakeisti trečiojo sklypo servituto reljefą.
